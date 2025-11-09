@@ -1,0 +1,97 @@
+# ============================================================
+# Python General Template (.gitignore)
+# Compatible with uv / venv / PyInstaller / Nuitka / VSCode
+# ============================================================
+
+# --- Python build / cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.manifest
+*.spec
+*.lock
+pip-wheel-metadata/
+.python-version
+
+# --- Virtual Environments (uv / venv) ---
+.venv/
+.uv/
+.venv*/
+.uv*/
+env/
+venv/
+ENV/
+
+# --- Nuitka / PyInstaller cache ---
+.nuitka-cache/
+__nuitka_cache__/
+.cache/
+.tmp_build/
+.tmp_dist/
+
+# --- Test / coverage tools ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# --- Logs / temp ---
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.ipynb_out/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Docs / Examples (optional to exclude) ---
+# /docs/_build/
+# /examples/output/
+
+# --- Packaging and release artifacts ---
+# Exclude packaged zip/exe archives if generated locally
+*.zip
+*.7z
+*.tar
+*.gz
+*.exe
+
+# --- Misc ---
+# Uncomment below if you commit your dependency list instead
+# requirements.txt
+
+# ============================================================
+# End of file
+# ============================================================
